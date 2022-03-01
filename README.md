@@ -17,3 +17,10 @@ Quit the server with CONTROL-C.
 Not Found: /favicon.ico
 [01/Mar/2022 12:26:03] "GET /favicon.ico HTTP/1.1" 404 2209
 ^Cloczylevente@u02:~/proba$ 
+
+
+python3 -m django startproject kutya
+CommandError: 'kutya' conflicts with the name of an existing Python module and cannot be used as a project name. Please try another name.
+loczylevente@u02:~$ python3 -m django startproject proba
+loczylevente@u02:~$ code proba
+loczylevente@u02:~$ 
